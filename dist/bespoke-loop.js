@@ -1,5 +1,5 @@
 /*!
- * bespoke-loop v0.0.1-alpha-1
+ * bespoke-loop v0.0.1-alpha-2
  *
  * Copyright 2013, Mark Dalgleish
  * This content is released under the MIT license
@@ -12,14 +12,12 @@
 		deck.on('prev', function(e) {
 			if (e.index === 0) {
 				deck.slide(deck.slides.length - 1);
-				return false;
 			}
 		});
 
 		deck.on('next', function(e) {
 			if (e.index === deck.slides.length - 1) {
 				deck.slide(0);
-				return false;
 			}
 		});
 	};
