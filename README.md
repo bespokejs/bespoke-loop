@@ -10,8 +10,8 @@ Turn your Bespoke.js presentation into an infinite loop.
 
 Download the [production version][min] or the [development version][max].
 
-[min]: https://raw.github.com/markdalgleish/bespoke.js/master/dist/bespoke-loop.min.js
-[max]: https://raw.github.com/markdalgleish/bespoke.js/master/dist/bespoke-loop.js
+[min]: https://raw.github.com/markdalgleish/bespoke-loop/master/dist/bespoke-loop.min.js
+[max]: https://raw.github.com/markdalgleish/bespoke-loop/master/dist/bespoke-loop.js
 
 ## Usage
 
