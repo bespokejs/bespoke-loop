@@ -1,5 +1,5 @@
 /*!
- * bespoke-loop v0.0.1-alpha-2
+ * bespoke-loop v0.1.0
  *
  * Copyright 2013, Mark Dalgleish
  * This content is released under the MIT license
