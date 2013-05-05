@@ -1,8 +1,11 @@
 {
   "name": "bespoke-loop",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "./dist/bespoke-loop.min.js",
   "ignore": [
     "**/.*"
-  ]
+  ],
+  "dependencies": {
+    "bespoke.js": "0.2.1"
+  }
 }
