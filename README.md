@@ -13,6 +13,14 @@ Download the [production version][min] or the [development version][max].
 [min]: https://raw.github.com/markdalgleish/bespoke-loop/master/dist/bespoke-loop.min.js
 [max]: https://raw.github.com/markdalgleish/bespoke-loop/master/dist/bespoke-loop.js
 
+### Bower
+
+Bespoke-loop can be installed from [Bower](http://twitter.github.com/bower/) using the following command:
+
+```bash
+$ bower install bespoke-loop
+```
+
 ## Usage
 
 First, include both `bespoke.js` and `bespoke-loop.js` in your page.
