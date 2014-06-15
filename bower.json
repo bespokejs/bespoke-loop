@@ -1,6 +1,6 @@
 {
   "name": "bespoke-loop",
-  "version": "0.1.2",
+  "version": "1.0.0-beta",
   "main": "./dist/bespoke-loop.js",
   "ignore": [
     "**/.*"
