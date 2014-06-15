@@ -1,44 +1,57 @@
-[![Build Status](https://secure.travis-ci.org/markdalgleish/bespoke-loop.png)](http://travis-ci.org/markdalgleish/bespoke-loop)
+[![Build Status](https://secure.travis-ci.org/markdalgleish/bespoke-loop.png?branch=master)](https://travis-ci.org/markdalgleish/bespoke-loop) [![Coverage Status](https://coveralls.io/repos/markdalgleish/bespoke-loop/badge.png)](https://coveralls.io/r/markdalgleish/bespoke-loop)
 
 # bespoke-loop
 
-### Looping Presentations for [Bespoke.js](https://github.com/markdalgleish/bespoke.js)
-
-Turn your Bespoke.js presentation into an infinite loop.
+Looping Presentations for [Bespoke.js](https://github.com/markdalgleish/bespoke.js)
 
 ## Download
 
-Download the [production version][min] or the [development version][max].
+Download the [production version][min] or the [development version][max], or use a [package manager](#package-managers).
 
 [min]: https://raw.github.com/markdalgleish/bespoke-loop/master/dist/bespoke-loop.min.js
 [max]: https://raw.github.com/markdalgleish/bespoke-loop/master/dist/bespoke-loop.js
 
-### Bower
+## Usage
 
-Bespoke-loop can be installed from [Bower](http://twitter.github.com/bower/) using the following command:
+This plugin is shipped in a [UMD format](https://github.com/umdjs/umd), meaning that it is available as a CommonJS/AMD module or browser global.
+
+For example, when using CommonJS modules:
+
+```js
+var bespoke = require('bespoke'),
+  loop = require('bespoke-loop');
+
+bespoke.from('article', [
+  loop()
+]);
+```
+
+When using browser globals:
+
+```js
+bespoke.from('article', [
+  bespoke.plugins.loop()
+]);
+```
+
+## Package managers
+
+### npm
+
+```bash
+$ npm install bespoke-loop
+```
+
+### Bower
 
 ```bash
 $ bower install bespoke-loop
 ```
 
-## Usage
+## Credits
 
-First, include both `bespoke.js` and `bespoke-loop.js` in your page.
-
-Then, simply include the plugin when using the `from(selector[, plugins])` method.
-
-```js
-bespoke.from(selector, {
-  loop: true
-});
-```
-
-## Questions?
-
-Contact me on GitHub or Twitter: [@markdalgleish](http://twitter.com/markdalgleish)
+This plugin was built with [generator-bespokeplugin](https://github.com/markdalgleish/generator-bespokeplugin).
 
 ## License
 
-Copyright 2013, Mark Dalgleish  
-This content is released under the MIT license  
-http://markdalgleish.mit-license.org
+[MIT License](http://en.wikipedia.org/wiki/MIT_License)
