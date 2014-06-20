@@ -44,7 +44,7 @@ describe("bespoke-loop", function() {
       });
 
       it("should activate the last slide", function() {
-        expect(deck.slides[deck.slides.length - 1].classList.contains('bespoke-active')).toBe(true);
+        expect(deck.slide()).toBe(deck.slides.length - 1);
       });
 
     });
@@ -65,7 +65,7 @@ describe("bespoke-loop", function() {
       });
 
       it("should activate the first slide", function() {
-        expect(deck.slides[0].classList.contains('bespoke-active')).toBe(true);
+        expect(deck.slide()).toBe(0);
       });
 
     });
