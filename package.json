@@ -1,6 +1,6 @@
 {
   "name": "bespoke-loop",
-  "version": "1.0.0-beta",
+  "version": "1.0.0",
   "description": "Looping Presentations for Bespoke.js",
   "author": {
     "name": "Mark Dalgleish",
